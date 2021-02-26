@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=320, initial-scale=1">
+    <meta charset="utf-8">
+    <style type="text/css">
+
+      * {
+        margin:0px;
+        padding:0px;
+      }
+   
+      body {
+
+      background: url(file:///H|/Oberstufe/Web/Web%20Projekt/Bilder/hg.jpg) repeat-x #ffa07a;
+        
+      }
+      
+      img {
+		float left;
+        padding-top: 10px;
+      }
+      h1{
+      color : black;
+      }
+      
+      #zentrieren {
+        margin: 30px auto;
+        width: 820px;
+        border: 7px solid #ffdab9;
+        
+      }
+      
+      #kopf {
+        height: 100px;
+        background-color: #f4a460;
+
+
+      }
+      
+      #navi {
+        background-color: #ffdab9;
+        text-align:center;
+        padding: 20px 0px;
+        height: 30px;
+       }
+      
+      /* Navigationsmenü oben...
+       *
+      #navi li {
+        font-size:1.9em;
+        font-weight:bold;
+        display:inline;
+        font-family:Arial, Helvetica, sans-serif;
+      }
+      
+      /* Navigationsmenü oben Schriftformatierungen...
+      */
+      
+      #navi li a {
+        color:#black;
+        text-decoration: none;
+
+      }
+      
+      #navi li a:hover {
+        background-color: #f4a460;
+        color: #f4a460; 
+      }
+      
+      #InhaltGesamt {
+        overflow: hidden;
+        background:#ffdab9;
+      }
+      
+      #LinkeSpalte {
+        float:left;
+        width: 590px;
+        margin: 15px;
+        font-family:Arial, Helvetica, sana-serif;
+        font-size: 1.2em;
+        color:#black;
+      }
+      
+      #LinkeSpalte {
+        float:left;
+        width: 590px;
+        margin: 15px;
+        font-family:Arial, Helvetica, sana-serif;
+        float: left;
+        padding-right:10px;
+      }
+        
+      #RechteSpalte {
+        text-align: center;
+        float: right;
+        width: 200px;
+      }
+      
+      #FussZeile {
+        background-color: #ffa07a;
+        height: 30px;
+        padding-top: 15px;
+      }
+      
+      #FussZeilebutton {
+        
+        
+        color:#black
+        font-weight:bold;
+        margin-bottom : 150px;
+        
+          
+      }
+      
+      .Abstand {
+        margin-left: 8px;
+      } 
+		
+		if(vAnrede=="Frau"){
+			vAnrede = "Frau";
+			vAusgabeHTML = vAusgabeHTML + " </hr>" + vAnrede;
+		}
+		
+		else{
+			vAnrede = "Herr";
+			vAusgabeHTML = vAusgabeHTML + " " + vAnrede;
+		
+		}
+		
+		vAusgabeHTML = vAusgabeHTML + vVorname + " " + vName + " geboren am" + " " + vGeburstdatum;
+		vAusgabeHTML = vAusgabeHTML + "<p> <strong>E-mail:</strong>" + " " + vEmail + "<p>";
+		vAusgabeHTML = vAusgabeHTML + "<hr><h5>Rechnungsadresse & Lieferadresse <hr></h5></hr>";
+		vAusgabeHTML = vAusgabeHTML + vAnrede + vName + "<p>" + vAdresse + "<br>" + vPLZ + " " + vStadt + "<p>";
+		vAusgabeHTML = vAusgabeHTML + "<br>Ihre Bestellbestätigung wird an " + "<b>" + vE-mail + "</b>" + " gesendet<br>";
+		
+		
+		 document.getElementById("idAusgabeHTML").innerHTML = vAusgabeHTML;
+    </style>
+    <!--<link rel="stylesheet" href="style.css"/>-->
+    <!--<script defer src="script.js"></script>-->
+  </head>
+  <body>
+    <div id="zentireren">
+      <div id"kopf">
+       <h1>
+         <center>Unsere Empfehlung</center></h1>
+      </div>
+      <div id="InhaltGesamt">
+        
+        <div id="LinkeSpalte">
+          <img src="Film1.png" <div style="float: left; width:100px; height:200px;">
+			<br>Baywatch ist ein Komödie von Seth Gordon mit Dwayne Johnson, Zac Efron und Alexandra Daddario. In Baywatch, dem Kino-Remake der 90er-Kultserie, müssen die gegensätzlichen Rettungsschwimmer Dwayne Johnson und Zac Efron sich widerwillig zusammenschließen, um ihren kalifornischen Strand zu retten.</p>
+
+  <br>
+  <br>      
+  <br><img src="Film2.png" <div style="float: left; width:100px; height:200px;"> <br>Cover Versions ist ein Mysterythriller aus dem Jahr 2018 von Todd Berger mit Katie Cassidy, Drake Bell und Jerry Trainor.</p>
+          <br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+          <img src="Film3.png" <div style="float: left; width:100px; height:200px;">
+			<br>A Quiet Place (engl. für „Ein ruhiger Ort“) ist ein Horror-Thriller von John Krasinski, der am 6. April 2018 in die US-amerikanischen und am 12. ... A Quiet Place erzählt, wie eine Familie auf der Erde nach einer mysteriösen Invasion versucht, zu überleben</p>
+          <br>
+	  <br>
+	  <br>
+	  <br>
+	  <br>
+          <img src="Film4.png" <div style="float: left; width:100px; height:200px;">
+			<br>In Midnight Sun ist die auf einem genetischen Defekt beruhende, unheilbare Hautkrankheit Xeroderma pigmentosum (kurz XP), unter der die 17-jährige Katie (Bella Thorne) leidet, der Grund für ein beinahe isoliertes Dasein: Ihre extreme Empfindlichkeit gegen Sonnenlicht verhindert, dass Katie tagsüber nach draußen gehen ...</p>
+          
+        </div>
+			  <left><br>
+				  <br>
+				  <h1>Name:</h1><input id="idName" type="text" name="" value="Yesilgül" size="px" style="height:25"</left>
+				  <br>
+				  <br>
+				     <h1>Vorname:</h1><input id="idVorname" type="text" name="" value="Selen" size="px" style="height:25px">
+				  <br>
+				  <br>
+				     <h1>Geburtsdatum:</h1> <input id="idGeburtsdatum" type="Date" name="" value="2001-11-05">
+				  <br>
+				  <br>
+				     <h1>Anrede:<select id="idAnrede" style="heigth:40px"</h1>
+						 <option value="Frau">Frau</option>
+						 <option value="Herr">Herr</option>
+						 </select>
+				  <br>
+				  <br>
+				  <br>
+				  <hr color="#000000" size="5px"> <br>
+				  <h1>Adresse: <input id="idAdresse" type="text" name="" value="Schusterstraße 10" size="20px" style="height: 25px"</h1>
+					  <br>
+					  <br>
+					  Stadt:<input id="idStadt" type="text" name="" value="Schusterstadt" size="20px" style="height:25px">
+					  <br>
+					  <br>
+					  Postleitzahl:<input id="idPLZ" type="number" name="" value="41515" size="25px" style="height:25px">
+					  <br>
+					  <br>
+					  E-mail:<input id="idEmail" type="Email" name="" value="Selen.yesilguel@icloud.com" size="20px" style="height:25px">
+					  <br>
+					  <br>
+					  <h1>Filme:<select id="idAnrede" style="heigth:40px"</h1>
+						 <option value="Baywatch">Baywatch</option>
+						 <option value="Cover Versions">Cover Versions</option>
+						 <option value="A Quiet Place">A Quiet Place</option>
+						 <option value="Midnight Sun">Midnight Sun</option>
+						 </select>
+						 </select>
+						 </select>
+					  
+						 
+						 
+			  <br>
+			  <br>
+			 
+			  
+											  
+											  
+      </div>
+    </div>
+    
+  </body>
+</html>
